@@ -55,7 +55,7 @@ def rename():
         raise ValueError('Number of videos don\'t match subtitles!')
     count = 0
     for n in videos:
-        subName = parse(n,parse(subs[count])) #('lezzet.mkv','srt')
+        subName = parse(n,parse(subs[count]))
         os.rename(subs[count],subName)
         count += 1
 
