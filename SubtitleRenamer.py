@@ -5,22 +5,25 @@
 import os
 
 def parse(text, ext = ''):
-    extension = ''
     dot = False
     newf = ''
-    if ext == '':
-        for c in text:
-            if c == '.':
-                dot = True
-            if dot and c != '.':
-                extension += c
-        return extension
-    else:
+    text = text[::-1]
+    if ext == '':#detect extension
         for c in text:
             if c != '.':
-                newf += c
+                ext += c
             else:
-                newf += '.%s' %ext
+                return ext[::-1]
+    else:#Create new file name
+        counter = 0
+        for c in text: #iterate through the reverse text
+            if c != '.': #increase counter until dot
+                counter += 1
+            else:
+                dotIndex = len(text) - counter
+                text = text[::-1]
+                newf += text[:dotIndex]
+                newf += ext
                 return newf
 
 def isVideo(text):
