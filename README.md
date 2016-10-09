@@ -1,7 +1,7 @@
 #Subtitle-Click
 Automated subtitle renaming tool
 
-Tired of renaming dozens of subtitles?
+Tired of renaming dozens of files?
 <br>
 Want a simple click to rename your Breaking Bad subtitles?
 <br>
