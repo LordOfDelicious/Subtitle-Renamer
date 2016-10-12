@@ -10,6 +10,7 @@ Behold, the Subtitle Click is here!
 <b>Instructions</b>
 <ul><b>1. </b>Simply copy the python file in a folder containing video files and subtitle files</ul>
 <ul><b>2. </b>Execute the file</ul>
+<ul><b>3. </b>???</ul>
 <ul><b>3. Profit</b></ul>
 
 <b>Note:</b> Requires Python to be installed, <i>obviously</i>
