@@ -22,8 +22,7 @@ def parse(text, ext = ''):
             else:
                 dotIndex = len(text) - counter
                 text = text[::-1]
-                newf += text[:dotIndex]
-                newf += ext
+                newf += text[:dotIndex] + ext
                 return newf
 
 def isVideo(text):
