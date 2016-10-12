@@ -1,5 +1,5 @@
 #Subtitle-Click
-Automated subtitle renaming tool
+One-click subtitle renaming tool
 
 Tired of renaming dozens of files?
 <br>
