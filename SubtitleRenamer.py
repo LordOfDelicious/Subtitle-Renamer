@@ -1,6 +1,6 @@
 #Subtitle Renamer version 0.01
 #Author: Oran Can Oren (orancan@sabanciuniv.edu)
-#Created in: 06/18/2016
+#Created in: 18 Jun 2016
 
 import os
 
