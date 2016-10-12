@@ -46,8 +46,8 @@ def isSubtitle(text):
 def rename():
     directory = os.path.dirname(os.path.realpath(__file__))
     files = os.listdir(directory)
-    videos = sorted(list())
-    subs = sorted(list())
+    videos = list()
+    subs = list()
     for i in files:
         if isVideo(i):
             videos.append(i)
