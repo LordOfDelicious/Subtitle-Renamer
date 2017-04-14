@@ -15,7 +15,4 @@ Behold, the Subtitle Click is here!
 
 <b>Note:</b> Requires Python to be installed, <i>obviously</i>
 
-This is a little project which I find to be the my most useful one until today.
-Normally I deal with abstract math problems, searching, sorting etc. but this one project has none of those and it has an actual use.
-
 Happy renaming
