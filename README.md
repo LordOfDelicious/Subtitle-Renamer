@@ -1,6 +1,6 @@
-#Subtitle-Click
-One-click subtitle renaming tool
-
+<h1>Subtitle-Click</h1>
+<p>One-click subtitle renaming tool</p>
+<hr>
 Tired of renaming dozens of files?
 <br>
 Want a simple click to rename your Breaking Bad subtitles?
@@ -16,3 +16,5 @@ Behold, the Subtitle Click is here!
 <b>Note:</b> Requires Python to be installed, <i>obviously</i>
 
 Happy renaming
+<hr>
+<p>First commit: 20 Jun 2016 [this project is special for me]</p>
